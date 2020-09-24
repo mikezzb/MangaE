@@ -7,10 +7,25 @@ export default StyleSheet.create({
         backgroundColor: colors.backgroundColor,
     },
     mangaCard:{
-        maxWidth: '80%',
-        minWidth: '80%',
+        maxWidth: '90%',
+        minWidth: '90%',
+        marginTop: 12,
+        marginBottom: 12,
+    },
+    searchBar:{
+        width: '90%',
+        marginLeft: '5%',
         marginTop: 20,
-        marginBottom: 20,
+        marginBottom: 10,
+    },
+    chipContainer:{
+        width: '90%',
+        marginLeft: '5%',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+    },
+    chip: {
+        margin: 8,
     },
     headerContainer: {
         flexDirection:'row',
@@ -29,6 +44,7 @@ export default StyleSheet.create({
         width: 45,
         height: 45,
         marginLeft: 20,
+        marginTop: 20,
     },
     closeText: {
         lineHeight: 25,

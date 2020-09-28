@@ -10,17 +10,23 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.0",
+    "@react-native-community/cameraroll": "^4.0.0",
     "fast-html-parser": "^1.0.1",
     "react": "16.13.1",
     "react-native": "0.63.2",
+    "react-native-chart-kit": "^6.6.1",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-image-viewing": "^0.2.0",
     "react-native-image-zoom-viewer": "^3.0.1",
     "react-native-paper": "^4.2.0",
+    "react-native-svg": "^12.1.0",
     "react-native-unimodules": "^0.11.0",
     "react-native-vector-icons": "^7.1.0",
     "react-navigation": "^4.4.0",
-    "util": "^0.12.3"
+    "rn-fetch-blob": "^0.12.0",
+    "util": "^0.12.3",
+    "victory-native": "^35.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

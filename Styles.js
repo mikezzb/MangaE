@@ -1,28 +1,62 @@
 import { StyleSheet } from "react-native"
 import colors from './colors'
 export default StyleSheet.create({
+    listHeader: {
+        width: '100%',
+    },
+    surface: {
+        flexDirection:'row',
+        height: 'auto',
+        marginTop:20,
+        marginBottom: 5,
+        width: '94%',
+        marginLeft: '3%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        elevation: 2,
+    },
+    surfaceRow: {
+        flexDirection:'column',
+    },
+    chart: {
+        width: '94%',
+        marginLeft: '3%',
+    },
     container:{
         alignItems: 'center',
         width:'100%',
         backgroundColor: colors.backgroundColor,
     },
     mangaCard:{
-        maxWidth: '90%',
-        minWidth: '90%',
+        maxWidth: '94%',
+        minWidth: '94%',
         marginTop: 12,
         marginBottom: 12,
     },
+    cardTitleContainer: {
+        paddingLeft: 0,
+    },
+    cardTitle: {
+        marginRight: 33,
+        marginTop: 0,
+    },
+    cardButton: {
+        position:'absolute',
+        top: 0,
+        right: 0,
+        marginRight: 0,
+    },
     searchBar:{
-        width: '90%',
-        marginLeft: '5%',
+        width: '94%',
+        marginLeft: '3%',
         marginTop: 20,
         marginBottom: 10,
     },
     chipContainer:{
-        width: '90%',
-        marginLeft: '5%',
+        width: '94%',
+        marginLeft: '3%',
         flexDirection: 'row',
-        flexWrap: 'wrap',
+        overflow: 'visible',
     },
     chip: {
         margin: 8,
@@ -59,6 +93,10 @@ export default StyleSheet.create({
         paddingTop: 2,
         includeFontPadding: false,
         color: "#FFF",
+    },
+    bottomNavigationBar: {
+        backgroundColor: '#FFF',
+        height: 54,
     },
 });
 

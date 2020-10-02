@@ -18,9 +18,9 @@ module.exports = {
         "react",
     ]
     ,rules: {
-        "indent": ["error", 4],
-        "react/jsx-indent": ["error", 4],
-        "react/jsx-indent-props": ["error", 4],
+        "indent": ["error", 2],
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-indent-props": ["error", 2],
         "react/jsx-filename-extension": [0],
         "arrow-parens": ["error", "as-needed"],
         "react/jsx-props-no-spreading": "off",

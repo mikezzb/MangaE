@@ -1,5 +1,6 @@
-import { StyleSheet } from "react-native"
-import colors from './consts/colors'
+import { StyleSheet } from 'react-native';
+import colors from './constants/colors';
+
 export default StyleSheet.create({
   listHeader: {
     width: '100%',
@@ -83,14 +84,14 @@ export default StyleSheet.create({
     flexDirection:'row',
     justifyContent: 'flex-end',
     width: '100%',
-    backgroundColor: "transparent",
-    color: "#FFF",
+    backgroundColor: 'transparent',
+    color: '#FFF',
   },
   footerContainer: {
     marginLeft: 20,
     alignSelf: 'flex-start',
-    backgroundColor: "rgba(0,0,0,0.6)",
-    color: "#FFF",
+    backgroundColor: 'rgba(0,0,0,0.6)',
+    color: '#FFF',
   },
   closeButton: {
     width: 45,
@@ -103,14 +104,14 @@ export default StyleSheet.create({
     fontSize: 25,
     paddingTop: 2,
     includeFontPadding: false,
-    color: "#FFF",
+    color: '#FFF',
   },
   footerText: {
     lineHeight: 12,
     fontSize: 12,
     paddingTop: 2,
     includeFontPadding: false,
-    color: "#FFF",
+    color: '#FFF',
   },
   bottomNavigationBar: {
     backgroundColor: '#FFF',
